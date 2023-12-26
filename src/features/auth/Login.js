@@ -79,7 +79,7 @@ const Login = () => {
 
         <label htmlFor="password">Password:</label>
         <input
-          type="text"
+          type="password"
           id="password"
           value={pwd}
           onChange={handlePwdInput}
@@ -90,7 +90,7 @@ const Login = () => {
     </section>
   );
 
-  return <div>Login</div>;
+  return content;
 };
 
 export default Login;
